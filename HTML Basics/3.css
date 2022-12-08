@@ -1,0 +1,20 @@
+body
+{
+    background-color: #EAF6F6;
+}
+hr
+{
+    border-style:dotted none none none;
+    width: 10rem;
+    border-color: gray;
+    border-width: 0.3rem;
+}
+h1,h3
+{
+    color: #66BFBF;
+}
+/* selector{property:value;}
+    Who      What     How
+   Syntax
+*/
+/* Emojipedia */
