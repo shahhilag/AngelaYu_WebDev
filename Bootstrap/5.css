@@ -1,0 +1,11 @@
+div
+{
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+}
+.rotated
+{
+    transform: rotate(25deg);
+    background-color: pink;
+}
