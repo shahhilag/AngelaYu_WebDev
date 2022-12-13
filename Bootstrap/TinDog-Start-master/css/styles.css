@@ -13,7 +13,7 @@ h1
 
 .container-fluid
 {
-    padding: 3% 15% !important;
+    padding: 3% 15% 5% !important;
 }
 
 #title
@@ -50,13 +50,17 @@ h1
 
 .title-img
 {
-    width: 60%;
+    width: 20% !important;
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 
 #features
 {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 p
@@ -138,3 +142,53 @@ h3
 {
     padding: 3% 2%;
 }
+
+#cta
+{
+    background-color: #FF4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading
+{
+    font-family: "Montserrat";
+    font-size:3.5rem !important;
+    line-height: 1.5 !important;
+}
+
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon
+{
+    margin: 20px 10px;
+}
+
+@media (max-width:980px) {
+    .title-img
+    {
+        position:static;
+        width:50% !important;
+        transform: rotate(0deg);
+    }
+    #title
+    {
+        text-align: center;
+    }
+
+}
+
+/* @media print 
+{
+
+}  Change page when being printed
+
+@media<type><feature>
+
+max-width: 900px If the width is less than 900px 
+min-width: 900px If the width is greater than or equal to 900px*/
