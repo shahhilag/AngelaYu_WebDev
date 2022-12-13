@@ -1,24 +1,53 @@
 body
 {
     font-family: 'Montserrat', sans-serif;
+    text-align: center !important;
+}
+
+/* Multiple selector */
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif; 
 }
 
 h1
 {
-    font-size: 3rem !important;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #fff;   
+}
+
+.testimonial-text
+{
+    font-size: 2.5rem !important;
     line-height: 1.5 !important;
+}
+
+.section-heading
+{
+    font-size: 2.5rem !important;
+    line-height: 1.5 !important;
+}
+
+.price-text
+{
+    font-size: 2.5rem !important;
+    line-height: 1.5 !important;
+}
+
+.big-heading
+{
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+}
+
+/* Hierarchical selector */
+#title .container-fluid
+{
+    padding: 3% 15% 7%  !important;
 }
 
 .container-fluid
 {
-    padding: 3% 15% 5% !important;
-}
-
-#title
-{
-    background-color: #FF4c68;
+    padding: 7% 15%  !important;
 }
 
 .navbar
@@ -26,6 +55,10 @@ h1
     padding: 0 0 4.5rem !important;
 }
 
+#title
+{
+    background-color: #FF4c68;
+}
 .navbar-brand
 {
     font-family: "Ubuntu";
@@ -69,22 +102,10 @@ p
     font-weight: 500 !important;
 }
 
-h2
-{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem !important;
-    line-height: 1.5 !important;
-}
 
-h3
-{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem !important;
-}
 
 .feature-box
 {
-    text-align: center;
     padding: 1% !important;
     width: 33% !important;
 }
@@ -103,7 +124,6 @@ h3
 
 #testimonials
 {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
@@ -118,7 +138,6 @@ h3
 #press
 {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -148,20 +167,22 @@ h3
     background-color: #FF4c68;
     color: #fff;
     padding: 7% 15%;
-    text-align: center;
+}
+
+.pricing-title
+{
+    font-size: 1.5rem !important;
+}
+
+.feature-title
+{
+    font-size: 1.5rem !important;
 }
 
 .cta-heading
 {
-    font-family: "Montserrat";
     font-size:3.5rem !important;
     line-height: 1.5 !important;
-}
-
-#footer
-{
-    padding: 7% 15%;
-    text-align: center;
 }
 
 .social-icon
@@ -192,3 +213,10 @@ h3
 
 max-width: 900px If the width is less than 900px 
 min-width: 900px If the width is greater than or equal to 900px*/
+
+
+/* div#title - The div with id of title */
+
+/* inline style>id>class>tag */
+
+/* Use id only sparingly */
