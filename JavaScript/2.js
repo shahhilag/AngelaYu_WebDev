@@ -8,3 +8,4 @@ console.log("b is " + b);
 
 //Number,Strings,_ and $ are allowed in the javascript
 
+
